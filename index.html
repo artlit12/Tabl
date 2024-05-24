@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Форма заявки</title>
+    </head>
+    <body>
+        <h1>Форма заявки на работу</h1>
+        <p><em>Пожалуйста заполните форму.
+              Обязательно поля отмечены*</em></p>
+        <h3>Контактная информации</h3>
+     <form action="/" >
+         <label for="name" > Имя*</label>    
+         <input type="text" id="name"
+                 required>
+          
+
+          <br>
+          <br>
+
+         <label for="phone" >Телефон</label>
+         <input type="tel" id="phone" >
+
+          <br>
+          <br>
+
+         <label for="email">Email*</label>
+         <input type="email" id="email" 
+                required>
+        
+          <br>
+          
+         <h3>Персональная информация</h3>
+         <label for="age">Возраст*</label>
+         <input type="number" id="age" 
+                required>
+                <br>
+                <br>
+         <label for="sex">Пол</label>
+         <select id="sex" >
+         <option>Женщина</option>
+         <option>Мужчина</option>
+         </select>
+
+         <h3>Выберите ваше хобби</h3>
+
+        
+         <input type="checkbox"  id="read">
+         <label for="read">Люблю читать</label>
+          
+           <br>
+           <br>
+        
+         <input type="checkbox" id="sport">
+         <label for="sport">Увлекаюсь спортом</label>
+         
+           <br>
+           <br>
+
+         <input type="checkbox" id="computer">
+         <label for="computer">Играю в компьютерные игры</label>
+         
+           <br>
+           <br>
+           
+
+         <input type="submit" value="Отправить">
+      </form>
+    </body>
+</html>
